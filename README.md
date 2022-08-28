@@ -44,7 +44,7 @@ We pass a config bytes that contains in which days we want to run checks, and th
 ## Future Plans 
 We want to use this protocol for an actual idea that we came up in Kuala Lumpur, Malaysia. Planning to extend the use of chainlink keepers for actual hacker houses and long term stays happening around the country.
 
-### POC - (polygon)
+### POC - (Mumbai)
 INFO: Deployed HackerHouseDAO Address: 0xa7b4eD9AD6d29625Ba760759fB8d602E48391246 Gas Used: 1682421
 INFO: Deployed NomadicVault Address: 0x44A87247123aFFd23891a43c13E44cb180886F28 Gas Used: 2298533
 INFO: Deployed NomadicWorldCoin Address: 0x6BBe1A603bf289F4402E3E13EeBb9cd7051f6f2e Gas Used: 1135598
