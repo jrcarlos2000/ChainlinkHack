@@ -1,0 +1,52 @@
+.profile-page{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+}
+.profile-container{
+    height: 82vh;
+    width: 42vw;
+    margin: 0 auto;
+    margin-top: 12vh;
+    background-color: rgb(30, 30, 30);
+    border-radius: 30px;
+    box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.631);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.profile-pic{
+    margin-top: 5vh;
+    width: 10vw;
+    height: 10vw;
+    background-image: url("../images//profile.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.general-info{
+    width: 100%;
+    text-align: center;
+    margin-top: 3vh;
+}
+.nft{
+    text-align: left;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    height: 44vh;
+    margin-top: 6vh;
+    padding-top: 4vh;
+    box-shadow: 0 -6px 20px rgba(0, 0, 0, 0.514);
+    overflow-y: scroll;
+}
+.reputation-nft{
+    background-color: aliceblue;
+    width: 25vw;
+    height: 30vw;
+    margin: 0 auto;
+    margin-bottom: 5vh;
+}

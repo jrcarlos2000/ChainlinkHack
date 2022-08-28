@@ -1,0 +1,182 @@
+.create-page{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+}
+.create-form {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10vw;
+}
+.label{
+    margin: 0 0 0 7vw;
+}
+.field-small{
+    width: 35vw !important;
+}
+.text-field{
+    width: 80vw;
+    height: 16vw;
+    border-radius: 20px;
+    border: 1px solid rgb(173, 173, 173);
+    padding-left: 3vw;
+    margin: 2vw 0 2vw 5vw;
+    font-size: 5vw;
+    background-color: rgb(199, 199, 199);
+}
+.create-btn{
+    margin: 7vw 0 10vw 5vw;
+    width: 90vw;
+    height: 18vw;
+    border-radius: 30px;
+    font-size: 8vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: white;
+    background-color: black;
+    border: none;
+}
+  .error-text{
+      margin-left: 7vw;
+      color: red;
+      width: 80vw;
+  }
+  .field-error{
+      border: solid 1px red;
+  }
+  .field-correct{
+      border: solid 1px rgb(0, 255, 187);
+  }
+
+@media screen and (min-width: 1200px) {
+    .form-container {
+        display: grid; 
+        width: 65vw;
+        grid-template-columns: 40vw 25vw; 
+        grid-template-rows: 1fr; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+          "form image-preview"; 
+        margin: 0 auto;
+        background-color: rgb(29, 29, 29);
+        border-radius: 30px;
+        margin-top: 4vh;
+      }
+      .form {
+        grid-area: form;
+        display: flex;
+        flex-wrap: wrap; 
+        height: 78vh;
+        align-items: center;
+        border-radius: 30px;
+      }
+      .image-preview{
+        margin-top: 10vh;
+        margin-left: 2vw;
+        max-width: 25vw;
+        width: 25vw;
+        grid-area: image-preview;
+    }
+    .field-small{
+        width: 14vw !important;
+        margin-right: 1vw !important;
+    }
+    .form-first-column { 
+          grid-area: form-first-column; 
+          display: flex;
+          flex-wrap: wrap;
+    }
+    .field-container{
+        margin-top: -1.8vh;
+    }
+    .form-second-column {
+        grid-area: form-second-column; 
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+    .label{
+        margin: 0vw 0 0 3vw;
+    }
+    .text-field{
+        width: 33vw;
+        height: 7vh;
+        padding-left: 1.5vw;
+        margin: 1vh 2vw 1vw 2.5vw;
+        font-size: 1.5vw;
+        background-color: rgb(40, 40, 40);
+        border: none;
+        outline: #FF3E60;
+        color: white;
+    }
+    .create-btn{
+        width: 20vw;
+        height: 5vw;
+        font-size: 1.5vw;
+        cursor: pointer;
+        background: #FF3E60;
+        transition: all 0.7s ease;
+        margin: 0vw 0 4vh 17.2vw;
+    }
+    .create-btn:hover{
+        transform: scale(1.1);
+        box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.307);
+      }
+    #link-field{
+        margin-top: -3vh;
+    }
+    #tags-field{
+        margin-top: -3vh;
+    }
+    #housemates-field{
+        margin-top: -3vh;
+    }
+    #checkbox{
+        height: 2vw;
+        margin-top: 2vh;
+        width: 2vw !important;
+        margin-left: 3vw;
+        cursor: pointer;
+    }
+    #checkbox-field{
+        margin-top: -7vh;
+    }
+    .textarea{
+        height: 11vh;
+        width: 31vw;
+        padding: 1vh 2vw 0 1.5vw;
+        font-size: 1.2vw;
+    }
+    #shortstay-form{
+        margin-top: 7vh;
+    }
+    .file-input{
+        margin: 1vh 30vw 0 3vw;
+        cursor: pointer;
+    }
+    .remove-btn{
+        padding: 1vh 1vw 1vh 1vw;
+        margin-top: 2vh;
+    }
+    .create-btn-shortstay{
+        margin-left: 22.5vw;
+        margin-right: 0;
+        background: #FF3E60;
+    }
+    .image-replacement{
+        width: 20vw;
+        height: 20vw;
+        background-color: #343434;
+    }
+    .worldcoin-success{
+        position: absolute;
+        z-index: 10;
+        right: 35vw;
+        top: 2vh;
+        background-color: #0000006d;
+        padding: 2vh 1.5vw 2vh 1.5vw;
+        border-left: 1px solid rgb(47, 255, 123);
+        border-radius: 5px;
+    }
+}
