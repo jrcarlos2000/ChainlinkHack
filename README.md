@@ -14,7 +14,7 @@ Our project uses WalletConnect which makes connecting to our app convenient for 
 ## How we use ChainLink
 One of the features of Nomadic is allowing users to create short stays and chip in using deadlines for the short stay to be fulfilled, chainlink keeper is used in a crucial way by allowing a check on the deadlines every certain time, this helps to keep the protocol safe and our users funds safe. 
 
-```javascript
+```solidity
 
         bytes32 _config = config; // Gas savings
 
@@ -37,7 +37,10 @@ One of the features of Nomadic is allowing users to create short stays and chip 
 
 ```
 We pass a config bytes that contains in which days we want to run checks, and the keeper will read in low level and perform the operations.
-
+```javascript
+ const config = '0x1200000000000000000000000000000000000000000000000000000000000000';
+  //00010010 wednesday and saturday 
+```
 ## Future Plans 
 We want to use this protocol for an actual idea that we came up in Kuala Lumpur, Malaysia. Planning to extend the use of chainlink keepers for actual hacker houses and long term stays happening around the country.
 
