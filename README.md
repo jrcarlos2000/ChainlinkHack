@@ -63,7 +63,7 @@ https://pitch.com/public/6114c484-4c2a-43ce-a8f6-1a9b4be816a5
 ![nomadic Screen Shot](./assets/nomaddao-2.png "nomadic Screen Shot")
 ![nomadic Screen Shot](./assets/nomaddao-3.png "nomadic Screen Shot")
 ![nomadic Screen Shot](./assets/nomaddao-4.png "nomadic Screen Shot")
-[![nomadic Demo](./assets/demo-yt.png)](https://www.youtube.com/watch?v=pR3nnZf0jBM)
+[![nomadic Demo](./assets/demo-yt.png)](https://www.youtube.com/watch?v=XJ9sV-JF4tk)
 
 ### to run front end locally
 
